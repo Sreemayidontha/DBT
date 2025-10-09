@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.yml": "jinja-yaml",
+        "*.sql": "jinja-sql"
+    },
+    "dbt.enableNewLineagePanel": true,
+    "dbt.perspectiveTheme": "Monokai"
+}

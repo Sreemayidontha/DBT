@@ -1,0 +1,11 @@
+sree_dbt_learn:
+  outputs:
+    dev:
+      catalog: dbt_learn_catalog
+      host: dbc-1570bc0a-6fa7.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/3a2590800af0300e
+      schema: default
+      threads: 1
+      token: dapia230d2eb599849ddbbd580243e2740bf
+      type: databricks
+  target: dev

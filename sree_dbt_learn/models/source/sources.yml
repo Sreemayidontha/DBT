@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: source
+    database: dbt_learn_catalog  
+    schema: source  
+    tables:
+      - name: fact_sales
+      - name: dim_customer
+      - name: dim_product
+      - name: dim_date
+      - name: fact_returns
+      - name: dim_store
+
+
+
