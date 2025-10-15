@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: silver_salesinfo #  Must match the filename of a model -- including case sensitivity.
+    config:
+      materialized: view
+      schema : silver
